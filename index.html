@@ -41,6 +41,11 @@ Geschwindigkeit und Kurs alle zwei Sekunden an diesen Server, damit Gruppe und Z
 sehen. Der Server hält die Positionen höchstens 15 Minuten im Speicher und schreibt sie nicht auf. Wer den
 Link der Gruppe kennt, sieht die Positionen live.</p>
 
+<h2>Wetterbericht</h2>
+<p>Für Windrichtung und -stärke fragt die App den Wetterdienst Open-Meteo (open-meteo.com) nach dem Wind am Ort.
+Dabei geht die Position auf etwa einen Kilometer gerundet hinaus, höchstens alle zehn Minuten, ohne Kennung des
+Geräts. Der Wert wird mit der Aufzeichnung gespeichert.</p>
+
 <h2>Sperrbildschirm</h2>
 <p>Während eines Laufs zeigt die App Platz, Zeit, Meterverlust und Score als Live-Aktivität auf dem
 Sperrbildschirm. Die Werte entstehen auf dem iPhone und werden nicht verschickt.</p>
@@ -75,7 +80,7 @@ no advertising. During a run the app records every location fix, also with the s
 on your iPhone; if you join a group, your runs are stored in iCloud and shared with its members. For the start
 signal, nearby devices exchange sail number, start time and clock timestamps via Bluetooth/Wi-Fi. If a relay
 address is set, positions are sent live every two seconds and kept in memory for at most 15 minutes.
-The lock-screen Live Activity is computed on the device and never sent. Imported tracks stay on the device unless you upload them to your group. On request (“load Bundesliga races”) the app downloads public race data from SAP Sailing Analytics, which sees the device's IP address like any web request. The map uses Apple MapKit. Feedback opens an e-mail containing app version, device type and iOS version,
+For wind direction and strength the app asks Open-Meteo for the forecast at your position, rounded to about one kilometre, at most every ten minutes and without any device identifier. The lock-screen Live Activity is computed on the device and never sent. Imported tracks stay on the device unless you upload them to your group. On request (“load Bundesliga races”) the app downloads public race data from SAP Sailing Analytics, which sees the device's IP address like any web request. The map uses Apple MapKit. Feedback opens an e-mail containing app version, device type and iOS version,
 never your location. Contact: <a href="mailto:deepframe.support@gmail.com">deepframe.support@gmail.com</a>.</p>
 </body>
 </html>
